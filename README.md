@@ -1,3 +1,5 @@
+Android & ios
+
 You need cocos2dx  necesitas cocos2d-x
 http://cocos2d-x.org/products
 
