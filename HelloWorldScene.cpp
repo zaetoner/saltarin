@@ -22,7 +22,7 @@ bool HelloWorld::init()
     /////////////////////////////
 
     personaje=DrawNode::create();
-    personaje->setContentSize(Size(visibleSize.width/15,visibleSize.height/30));
+    personaje->setContentSize(Size(visibleSize.width/20,visibleSize.height/30));
     personaje->setAnchorPoint(Vec2(0.5,0.5));
     personaje->drawSolidRect(Vec2(0,0),Vec2(visibleSize.width/20,visibleSize.height/30),Color4F::GREEN);
     personaje->setPosition(Vec2(origin.x+visibleSize.width/2,origin.y+visibleSize.height/3));
