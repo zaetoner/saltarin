@@ -2,10 +2,7 @@
 
 USING_NS_CC;
 
-Scene* HelloWorld::createScene()
-{
-    return HelloWorld::create();
-}
+Scene* HelloWorld::createScene(){return HelloWorld::create();}
 
 // on "init" you need to initialize your instance
 bool HelloWorld::init()
@@ -41,7 +38,6 @@ bool HelloWorld::init()
     Device::setAccelerometerEnabled(true);
     EventListenerAcceleration* Aceleracion=EventListenerAcceleration::create(CC_CALLBACK_2(HelloWorld::enAceleracion,this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(Aceleracion,this);
-
 
     scheduleUpdate();
     return true;
